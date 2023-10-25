@@ -48,7 +48,7 @@ with st.sidebar:
     selected_end_date = st.sidebar.slider('Select end date', selected_start_date, end_date, end_date)
 
     st.sidebar.write("")
-    st.sidebar.markdown("Made with :heart_eyes: by Eng. [Omayma Ali](https://www.youtube.com/c/MustafaOthman/)")
+    st.sidebar.markdown("Made by [Omayma Ali](https://github.com/Omayma-ali/Kiva.org)")
 
 
 # Remove whitespace from the top of the page and sidebar
