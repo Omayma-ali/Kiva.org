@@ -7,7 +7,7 @@ from PIL import Image
 from datetime import datetime, date
 
 # Setting page configuration
-st.set_page_confipg(page_title="Kiva dashboard", page_icon="💹", layout='wide')
+st.set_page_config(page_title="Kiva dashboard", page_icon="💹", layout='wide')
 
 # Loading data
 kiva_loans = pd.read_csv('cleaned_kivaloans.csv')
