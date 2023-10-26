@@ -8,7 +8,7 @@ from datetime import datetime, date
 
 # Setting page configuration
 st.set_page_config(page_title="Kiva dashboard", page_icon="💹", layout='wide')
-st.markdown("[Download Large File](https://drive.google.com/file/d/1TMSzCDG6IzE2q-RHocGVVJ-B1GdN-SKT/view?usp=sharing)")
+
 # Loading data
 kiva_loans = pd.read_csv('cleaned_kivaloans.csv')
 partners = pd.read_csv('loan_themes_by_region.csv')
