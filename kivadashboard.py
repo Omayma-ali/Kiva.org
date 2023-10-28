@@ -50,7 +50,50 @@ with st.sidebar:
     st.sidebar.write("")
     st.sidebar.markdown("Made by [Omayma Ali](https://github.com/Omayma-ali/Kiva.org)")
 
+# Remove whitespace from the top of the page and sidebar
+# sidebar background color
+st.markdown("""
+    <style>
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        }
+    [data-testid=stSidebar] {
+        background: linear-gradient(to bottom left, #999966 0%, #ccffff 37%);
+        } 
+    [data-testid="metric-container"] {
+        border: 1px solid #e6e6ff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }   
+    [data-testid="stMetricLabel"] {
+        font-family: Georgia, serif;
+        color:rgb(0, 0, 153);
+        font-weight: bold;
+        font-size: 30px;
+        }
+    [data-testid="stImage"]{
+        border: 1px solid #e6e6ff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);    
+        }
+    [data-testid="caption"] {
+        font-family: Georgia, serif;
+        color:#288BA8;
+        font-weight: bold;
+        font-size: 14px;
+        }  
+    [data-testid="stMarkdownContainer"]{
+        font-family: Georgia, serif;
+        color:#009933;
+        font-weight: bold;
+        font-size: 35px;   
+        }
 
+    </style>
+""", unsafe_allow_html=True) 
 
     
 # Information Cards
